@@ -31,5 +31,8 @@
     "postcss": "^8.4.29",
     "postcss-cli": "^10.1.0",
     "sass": "^1.67.0"
+  },
+  "dependencies": {
+    "idmx-11ty-sass-starter": "file:"
   }
 }
