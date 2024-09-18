@@ -12,7 +12,16 @@ The build process includes minifiying and autoprefixing of styles via the `postb
 
 **`npm install`**
 
->Run this command once to install the needed node modules.
+PS C:\Users\Paige\poem-site-paigecornell> npm install
+
+up to date, audited 398 packages in 2s
+
+104 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Paige\poem-site-paigecornell> 
+
 
 ## Development Scripts
 
