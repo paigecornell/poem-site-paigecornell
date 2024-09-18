@@ -27,7 +27,26 @@ PS C:\Users\Paige\poem-site-paigecornell>
 
 **`npm start`**
 
-> This script runs 11ty with hot reload and served at the url localhost:8080. It will reload whenever there are HTML or Sass changes.
+PS C:\Users\Paige\poem-site-paigecornell> npm start
+
+> idmx-11ty-sass-starter@2.0.0 start       
+> npm-run-all build:sass --parallel watch:*
+
+> idmx-11ty-sass-starter@2.0.0 build:sass
+> sass  --no-source-map src/sass:public/css
+
+> idmx-11ty-sass-starter@2.0.0 watch:sass
+> sass  --no-source-map --watch src/sass:public/css
+
+> idmx-11ty-sass-starter@2.0.0 watch:eleventy
+> eleventy --serve
+
+Sass is watching for changes. Press Ctrl-C to stop.
+
+[11ty] Writing public/index.html from ./src/index.html (liquid)
+[11ty] Copied 5 files / Wrote 1 file in 0.09 seconds (v2.0.1)
+[11ty] Watching…
+[11ty] Server at http://localhost:8080/
 
 **`npm run build`**
 
