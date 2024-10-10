@@ -1,7 +1,4 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
-
+* Box sizing rules *
 *,
 *::before,
 *::after {
@@ -84,22 +81,22 @@ body {
     font-style: normal;
     }
     
+    
+    
     h1 {
     text-align: center;
     font-size: clamp(2rem, 2vw, 2rem);
     border-style:solid; 
     border-color: plum;
     padding: 20px; 
-    margin-top: 40px;
     border-width: 5px;
     margin-right: 150px; 
     margin-left: 150px; 
     } 
-
+    
     h2 {
     text-align: center;
     font-size: clamp(1rem, 1vw, 1rem);
-    margin-top: 20px; 
     }
     
     img {
